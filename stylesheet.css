@@ -1,0 +1,176 @@
+*{
+			margin: 0;
+			box-sizing: border-box;
+		}
+		.topnav{
+			display: flex;
+			background-color: white;
+			justify-content: space-between;
+			padding:15px;
+			position: fixed;
+			width: 100%;
+
+		}
+		.topnav a{
+			color: black;
+			text-decoration: none;
+			font-size: 25px;
+			font-weight: 400;
+		}
+		.topnav a::after{
+			content: "";
+		}
+		.topnav a:hover{
+			background-color: #ddd;
+			padding: 10px;
+			transition: .5s;
+		}
+		.topnavleft{
+
+		}
+		.topnavright{
+			text-align: right;
+		}
+		.topnavright a{
+			margin-left: 10px;
+		}
+		.main{
+			display: flex;
+			justify-content:  center;
+		}
+		/*.main h2{
+			font-weight: 400;
+		}
+		.main b{
+			background-color: black;
+			color: white;
+		}
+		*/
+		#Projects{
+			margin: 30px;
+			justify-content: center;
+		}
+		#Projects h2{
+			font-family: arial;
+			font-size: 23px;
+			font-weight: 400;
+		}
+		hr{
+			color: lightgrey;
+			margin: 3%;
+		}
+		.mainpic{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		.pic{
+			flex-basis: 344px;
+			margin-top: 8px;
+			margin-left: 10px;
+			border :2px solid white;
+			object-fit: contain;
+		}
+		.pic img{
+			max-width: 100%;
+			width: 100%;
+			object-fit: contain;
+			
+		}
+		/*@media screen and (min-width: 300px;){
+			.mainpic{
+				flex-basis: 700px;
+			}
+		}
+		*/
+		.mainpic p{
+			font-size: 16px;
+			font-family: arial;
+			margin:3%;
+			font-weight: 400;
+
+		}
+		.mainpic h3{
+			font-weight: 500;
+
+		}
+		.mainpic h4{
+			color: grey;
+			font-size: 15px;
+			font-family: sans-serif;
+			font-weight: 400;
+		}
+		#About p{
+			font-size: 16px;
+			font-family: arial;
+			margin:3%;
+			font-weight: 400;
+		}
+		#Contact h3{
+			font-weight: 600;
+			margin: 3%;
+			font-size: 25px;
+		}
+		#Contact p{
+			font-size: 16px;
+			font-family: arial;
+			font-weight: 400;
+			margin: 3%;
+		}
+		input{
+			width: 94%;
+			height: 40px;
+			margin-bottom: 1%;
+			margin-left: 3%;
+			margin-right: 3%;
+			border:1px solid lightgrey;
+			font-size: 15px;
+		}
+		.submit{
+			background-color: black;
+			color: white;
+			width: 15%;
+		}
+		.footer{
+			background-color: black;
+		}
+		.footer p{
+			justify-content: center;
+			text-align: center;
+			color: white;
+			font-family: arial;
+			font-size: 20px;
+			padding-top: 2.5%;
+			padding-bottom: 2.5%;
+		}
+		.footer a{
+			text-decoration: none;
+			color: white;
+		}
+		.p{
+			background-color: black;
+			color: white;
+			text-align: center;
+			width: 132px;
+			font-size: 15px;
+			padding: 10px;
+			padding-bottom: 10px;
+			transform: translate(-10px,-241px);
+		}
+		.pp{
+			font-size: 50px;
+			font-family: serif;
+			color: white;
+			font-weight: 400;
+		}
+		.ppp{
+			width: 7%;
+			height: 60px;
+			background-color: black;
+			color: white;
+			opacity: .8;
+			font-size: 40px;
+			font-family: serif;
+			text-align: center;
+			font-weight: 600;
+		}
